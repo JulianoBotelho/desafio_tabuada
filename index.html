@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taboada</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="logo-dnc.svg">
-        <h1> Taboada </h1>    
+        <h1> Tabuada </h1>    
     </header>
     <section>
         <div>
             <p>
                 Qual taboada você deseja saber? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="num">
             </p>
             <p>
                 Até qual número você quer saber? <br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="end">
             </p>
             <p>
-                <input type="button" value="Calcular" id="botao">
+                <input type="button" value="Calcular" id="botao" onclick="Tabuada()">
             </p>
         </div>
         <div id="resposta">
             Preencha os valores acima!
-        </div>
-        
-    </section>  
+        </div> 
+    </section>
+    <script src="tabuada_script.js">
 
+    </script>  
 </body>
 </html>
